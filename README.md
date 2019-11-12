@@ -18,7 +18,7 @@ Create the backend for a bootcamp directory website. The frontend/UI will be cre
     * Filter by fields
   - [ ] Search bootcamps by radius from zipcode
     * Use a geocoder to get exact location and coords from a single address field
-  - [ ] Get single bootcamp
+  - [X] Get single bootcamp
   - [ ] Create new bootcamp
     * Authenticated users only
     * Must have the role "publisher" or "admin"
@@ -40,10 +40,10 @@ Create the backend for a bootcamp directory website. The frontend/UI will be cre
 <details><summary style="font-size: x-large;"> Courses </summary>
 <p>
 
-- [ ] List all courses for bootcamp
+- [X] List all courses for bootcamp
 - [ ] List all courses in general
   * Pagination, filtering, etc
-- [ ] Get single course
+- [X] Get single course
 - [ ] Create new course
   * Authenticated users only
   * Must have the role "publisher" or "admin"
@@ -143,10 +143,10 @@ Create the backend for a bootcamp directory website. The frontend/UI will be cre
 <details><summary style="font-size: x-large;"> Code Related Suggestions </summary>
 <p>
 
-- [ ] NPM scripts for dev and production env
-- [ ] Config file for important constants
-- [ ] Use controller methods with documented descriptions/routes
-- [ ] Error handling middleware
+- [X] NPM scripts for dev and production env
+- [X] Config file for important constants
+- [X] Use controller methods with documented descriptions/routes
+- [X] Error handling middleware
 - [ ] Authentication middleware for protecting routes and setting user roles
 - [ ] Validation using Mongoose and no external libraries
 - [ ] Use async/await (create middleware to clean up controller methods)
